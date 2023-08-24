@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat&family=Roboto:wght@300&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.js-errors {
+    margin-top: 3%;
+    background:#f93337;
+    border-radius:4px;
+    color:#FFF;
+    font-size:.8em;
+    list-style-type:square;
+    margin-bottom:1em;
+    padding:1em;
+}
+
+.js-errors {
+	  display:none;
+}
+
+.js-errors li {
+	  margin-left:1em;
+  margin-bottom:.5em;
+  padding-left:0;
+}
+
+body {
+  /* background-image: url(../images/fondo.jpg); */
+  background-color: #fff;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* INICIO SECCION HEADER */
+header {
+  background-color: transparent;
+  background-size: cover;
+  min-height: 10vh;
+}
+
+.colorAM{
+  color: #000;
+}
+
+
+
+/* FIN SECCION HEADER */
+
+
+
+/* SECCIONES DEL MAIN */
+
+/* Da el color a los botones de las paginas de compra */
+.btn{
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+}
+
+.btn:hover{
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+}
+
+body{
+    background-image: url(../img/fondo.jpg);
+    /* background-color: #000; */
+}
+/* FIN SECCIONES DEL MAIN */
+
+
+
+/* INIICIO FOOTER */
+/* Se le da la transparencia y la ubicacion y el color de letra al footer  */
+footer{
+background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-color: transparent; */
+  color: #000;
+}
+
+/* FIN FOOTER */
+
+
+
+
+/* INICIO NAVBAR */
+/* Da el tamanno de letra al navbar y lo ubica un poco abajo */
+.navbar{
+  padding-top: 1%;
+  font-size: 2vh;
+  background-color: #fff;
+}
+
+/* Sirve para separar el navbar Brand de los links */
+.navbar-collapse{
+   flex-grow: 0;
+}
+
+/* Da el tamanno deaseado el navbar brand ademas, se le da el color y es */
+.navbar-brand{
+  color: #000;
+  font-size: 5vh;
+}
+
+/* El color que se le pondra al navbar brand si nos posicionamos sobre el */
+.navbar-brand:hover{
+  color: #000;
+}
+
+/* El color de los links del navbar */
+.nav-item .nav-link{
+  color: #000;
+}
+
+/* Sirve para que el dropdown no tenga color y se ajuste al resto del navbar */
+.dropdown-menu{
+  background-color: #fff;
+}
+/* Darle el color de letra a los items del dropdown */
+.dropdown-item{
+  color: #000;
+}
+/* Darle el background color y el color de letra a los items del dropdown cuando estamos encima con el mouse */
+.dropdown-item:hover{
+  color: #fff;
+  background-color: #000;
+}
+
+/* Darle el background color y el color de letra a los items del navbar cuando estamos encima con el mouse */
+.nav-item .nav-link:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+/* FIN NAVBAR */
+
+
+/* OTROS ELEMENTOS*/
+/* Color y tamanno de los iconos de lista  y de el carrito */
+.bi-list{
+  color: #000;
+  font-size: 4vh;
+}
+.bi-cart{
+  color: #fff;
+  font-size: 2vh;
+}
+
+#contact_form{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    color: #fff;
+    /* border: 3px #000 solid; */
+}
+
+
+.borde{
+  border-top: rgb(203, 203, 203) solid 2px;
+}

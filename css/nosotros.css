@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat&family=Roboto:wght@300&display=swap');
+
+
+body, html {
+    height: 100%;
+    line-height: 1.8;
+  }
+  
+  /* Full height image header */
+  .bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/w3images/mac.jpg");
+    min-height: 100%;
+  }
+  
+  .w3-bar .w3-button {
+    padding: 16px;
+  }
+
+
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.borde{
+    border-top: rgb(203, 203, 203) solid 2px;
+  }
+
+/***********************************
+     INICIO SECCION NAVBAR
+***********************************/
+
+.navbar {
+    padding-top: 3%;
+    font-size: 2vh;
+    background-color: white;
+  }
+  
+  /* Sirve para separar el navbar Brand de los links */
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+  
+  /* Da el tamanno deaseado el navbar brand ademas, se le da el color y es */
+  .navbar-brand {
+    color: #000;
+    font-size: 5vh;
+  }
+  
+  /* El color que se le pondra al navbar brand si nos posicionamos sobre el */
+  .navbar-brand:hover {
+    color: #000;
+  }
+  
+  /* El color de los links del navbar */
+  .nav-item .nav-link {
+    color: #000;
+  }
+  
+  /* Sirve para que el dropdown no tenga color y se ajuste al resto del navbar */
+  .dropdown-menu {
+    background-color: #fff;
+  }
+  /* Darle el color de letra a los items del dropdown */
+  .dropdown-item {
+    color: #000;
+  }
+  /* Darle el background color y el color de letra a los items del dropdown cuando estamos encima con el mouse */
+  .dropdown-item:hover {
+    color: #fff;
+    background-color: #000;
+  }
+  
+  /* Darle el background color y el color de letra a los items del navbar cuando estamos encima con el mouse */
+  .nav-item .nav-link:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /***********************************
+       FIN SECCION NAVBAR
+  ***********************************/
+
+
+main{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* border: 2px #000 solid ; */
+}
+
+
+
+
+/* Da un margen entre el titulo y los cards de los miembros */
+.tituloPrincipal {
+    margin-bottom: 100px;
+}
+
+/* Hace que el h3 del titulo tenga un ancho,espaciado entre letras y no tenga margen inferior */
+.tituloPrincipal h3 {
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+/* Le da un padding superior al "p" del titulo para que no este pegado al "h3" asi como otros pequennos detalles de estilo*/
+.p-top-30 {
+    padding-top: 30px;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 25px;
+    color: #7e7e7e;
+}
+
+/* Le da a la imagen la posicion correcta dentro de la card */
+.miembroEquipo, .miembroEquipo .team-img {
+    position: relative;
+}
+/* Hace que si la imagen u otro dato es muy grande no se salga del margen de la card */
+.miembroEquipo {
+    overflow: hidden;
+}
+
+/* Se encarga de darle el color oscuro que se pone sobre la carga cuando el mouse esta sobre el, asi como centrar los elementos, dar un borde, y hacer las transicion*/
+.descripcionEquipo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    border: 20px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.90);
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+/* Se encarga de que el texto cuando estamos sobre la card, salga un poco abajo y se vea correctamente dentro de la card */
+.miembroEquipo:hover .descripcionEquipo .descripcion {
+    top: 35%;
+}
+/* Acomoda el texto dentro de la card, asi como darle su transicion */
+.descripcionEquipo .descripcion {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    -webkit-transform: translateY(-55%);
+    -ms-transform: translateY(-55%);
+    transform: translateY(-55%);
+    -webkit-transition: all 0.3s 0.2s;
+    transition: all 0.3s 0.2s;
+    padding: 0 20px;
+}
+
+
+/* Poner un pequeno margen a los iconos del las redes sociales, cuando estamos sobre la tarjeta, para que sea vean correctamnete */
+.miembroEquipo:hover .descripcionEquipo .s-link {
+    bottom: 10%;
+}
+/* NO SE QUE HACE */
+.miembroEquipo:hover .descripcionEquipo, .miembroEquipo:hover .descripcionEquipo .descripcion, .miembroEquipo:hover .descripcionEquipo .s-link {
+    opacity: 1;
+}
+
+/* Acomoda los iconoes de las redes sociales cuando al mouse esta sobre la tarjeta, asi como hacer las transicion de los iconos al aparecer*/
+.descripcionEquipo .s-link {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    -webkit-transform: translateY(45%);
+    -ms-transform: translateY(45%);
+    transform: translateY(45%);
+    -webkit-transition: all 0.3s 0.2s;
+    transition: all 0.3s 0.2s;
+    font-size: 35px;
+}
+
+/* Alinea los iconos de las redes socuiales de manera centrada y les da el color negro */
+.descripcion, .descripcion h4, .descripcionEquipo .s-link a {
+    text-align: center;
+    color: #222;
+}
+
+/* Le da la separacion entre si a los iconos, el color, y un tamanno mas pequenno */
+.miembroEquipo .s-link a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Da un espaciado de letra al nombre de los integrantes del equipo, tambien da un padding superior e inferior para que no salga
+el texto pegado a la card */
+.team-title {
+    padding: 20px 0;
+    display: inline-block;
+    letter-spacing: 2px;
+    width: 100%;
+}
+
+/* Transforma el texto a mayusculas, y quita el margen inferior*/
+.team-title h5 {
+    margin-bottom: 0px;
+    display: block;
+    text-transform: uppercase;
+}
+/* Da el color al texto de la profesion de los miembros, tambien hace el texto en mayuscula y da un ligero espaciado entre letras */
+.team-title span {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #a5a5a5;
+    letter-spacing: 1px;
+}
