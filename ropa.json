@@ -1,0 +1,551 @@
+ [
+    {
+      "precio": 500,
+      "id": 1,
+      "title": "Blusa adidas 1",
+      "thumbnailUrl": "./img/Camisas/camisaAdidas1F.jpg",
+      "tipo": "camisa",
+      "genero": "f",
+      "marca": "adidas"
+    },
+    {
+      "precio": 300,
+      "id": 2,
+      "title": "Blusa adidas 2",
+      "thumbnailUrl": "./img/Camisas/camisaAdidas2F.jpg",
+      "tipo": "camisa",
+      "genero": "f",
+      "marca": "adidas"
+    },
+    {
+      "precio": 100,
+      "id": 3,
+      "title": "Blusa adidas 3",
+      "thumbnailUrl": "./img/Camisas/camisaAdidas3F.jpg",
+      "tipo": "camisa",
+      "genero": "f",
+      "marca": "adidas"
+    },
+    {
+      "precio": 50,
+      "id": 4,
+      "title": "Blusa nike 1",
+      "thumbnailUrl": "./img/Camisas/camisaNike1F.jpg",
+      "tipo": "camisa",
+      "genero": "f",
+      "marca": "nike"
+    },
+    {
+      "precio": 50,
+      "id": 5,
+      "title": "Blusa nike 2",
+      "thumbnailUrl": "./img/Camisas/camisaNike2F.jpg",
+      "tipo": "camisa",
+      "genero": "f",
+      "marca": "nike"
+    },
+    {
+      "precio": 50,
+      "id": 6,
+      "title": "Blusa nike 3",
+      "thumbnailUrl": "./img/Camisas/camisaNike3F.jpg",
+      "tipo": "camisa",
+      "genero": "f",
+      "marca": "nike"
+    },
+    {
+      "precio": 50,
+      "id": 7,
+      "title": "Blusa nike 4",
+      "thumbnailUrl": "./img/Camisas/camisaNike4F.jpg",
+      "tipo": "camisa",
+      "genero": "f",
+      "marca": "nike"
+    },
+    {
+      "precio": 50,
+      "id": 8,
+      "title": "Blusa rebook 1",
+      "thumbnailUrl": "./img/Camisas/camisaRebook1F.jpg",
+      "tipo": "camisa",
+      "genero": "f",
+      "marca": "rebook"
+    },
+    {
+      "precio": 50,
+      "id": 9,
+      "title": "Blusa rebook 2",
+      "thumbnailUrl": "./img/Camisas/camisaRebook2F.jpg",
+      "tipo": "camisa",
+      "genero": "f",
+      "marca": "rebook"
+    },
+    {
+      "precio": 50,
+      "id": 10,
+      "title": "Blusa rebook 3",
+      "thumbnailUrl": "./img/Camisas/camisaRebook3F.jpg",
+      "tipo": "camisa",
+      "genero": "f",
+      "marca": "rebook"
+    },
+      
+      {
+        "precio": 150,
+        "id": 11,
+        "title": "Camisa Adidas Negra",
+        "thumbnailUrl": "./img/Camisas/camisaAdidas1M.jpeg",
+        "tipo": "camisa",
+        "genero": "m",
+        "marca": "adidas"
+      },
+      {
+        "precio": 50,
+        "id": 12,
+        "title": "Camisa Adidas Blanca",
+        "thumbnailUrl": "./img/Camisas/camisaAdidas2M.jpeg",
+        "tipo": "camisa",
+        "genero": "m",
+        "marca": "adidas"
+      },
+      {
+        "precio": 50,
+        "id": 13,
+        "title": "Camisa Adidas Tradicional",
+        "thumbnailUrl": "./img/Camisas/camisaAdidas3M.jpeg",
+        "tipo": "camisa",
+        "genero": "m",
+        "marca": "adidas"
+      },
+      {
+        "precio": 50,
+        "id": 14,
+        "title": "Camisa Nike SB",
+        "thumbnailUrl": "./img/Camisas/camisaNike1M.jpeg",
+        "tipo": "camisa",
+        "genero": "m",
+        "marca": "nike"
+      },
+      {
+        "precio": 50,
+        "id": 15,
+        "title": "Camisa Nike SB Gris",
+        "thumbnailUrl": "./img/Camisas/camisaNike2M.jpeg",
+        "tipo": "camisa",
+        "genero": "m",
+        "marca": "nike"
+      },
+      {
+        "precio": 50,
+        "id": 16,
+        "title": "Camisa Nike ",
+        "thumbnailUrl": "./img/Camisas/camisaNike3M.jpeg",
+        "tipo": "camisa",
+        "genero": "m",
+        "marca": "nike"
+      },
+      {
+        "precio": 50,
+        "id": 17,
+        "title": "Camisa Vans",
+        "thumbnailUrl": "./img/Camisas/camisaVans1M.jpeg",
+        "tipo": "camisa",
+        "genero": "m",
+        "marca": "vans"
+      },
+      {
+        "precio": 50,
+        "id": 18,
+        "title": "Camisa Vans Tradicional",
+        "thumbnailUrl": "./img/Camisas/camisaVans2M.jpeg",
+        "tipo": "camisa",
+        "genero": "m",
+        "marca": "vans"
+      },
+      {
+        "precio": 50,
+        "id": 19,
+        "title": "Camisa Vans Skate",
+        "thumbnailUrl": "./img/Camisas/camisaVans3M.jpeg",
+        "tipo": "camisa",
+        "genero": "m",
+        "marca": "vans"
+      },
+      {
+        "precio": 50,
+        "id": 20,
+        "title": "Camisa Vans old",
+        "thumbnailUrl": "./img/Camisas/camisaVans4M.jpeg",
+        "tipo": "camisa",
+        "genero": "m",
+        "marca": "vans"
+      },
+   
+    
+    {
+      "precio": 150,
+      "id": 21,
+      "title": "Tenis Adidas",
+      "thumbnailUrl": "./img/Tenis/teniAdidas1M.jpeg",
+      "tipo": "tenis",
+      "genero": "m",
+      "marca": "adidas"
+    },
+    {
+      "precio": 150,
+      "id": 22,
+      "title": "Tenis Adidas",
+      "thumbnailUrl": "./img/Tenis/teniAdidas2M.jpeg",
+      "tipo": "tenis",
+      "genero": "m",
+      "marca": "adidas"
+    },
+    {
+      "precio": 150,
+      "id": 23,
+      "title": "Tenis Adidas",
+      "thumbnailUrl": "./img/Tenis/teniAdidas3M.jpeg",
+      "tipo": "tenis",
+      "genero": "m",
+      "marca": "adidas"
+    },
+    {
+      "precio": 150,
+      "id": 24,
+      "title": "Tenis Adidas",
+      "thumbnailUrl": "./img/Tenis/teniAdidas4M.jpeg",
+      "tipo": "tenis",
+      "genero": "m",
+      "marca": "adidas"
+    },
+    {
+      "precio": 150,
+      "id": 25,
+      "title": "Tenis Nike",
+      "thumbnailUrl": "./img/Tenis/teniNike1M.jpeg",
+      "tipo": "tenis",
+      "genero": "m",
+      "marca": "nike"
+    },
+    {
+      "precio": 150,
+      "id": 26,
+      "title": "Tenis Nike",
+      "thumbnailUrl": "./img/Tenis/teniNike2M.jpeg",
+      "tipo": "tenis",
+      "genero": "m",
+      "marca": "nike"
+    },
+    {
+      "precio": 150,
+      "id": 27,
+      "title": "Tenis Nike",
+      "thumbnailUrl": "./img/Tenis/teniNike3M.jpeg",
+      "tipo": "tenis",
+      "genero": "m",
+      "marca": "nike"
+    },
+    {
+      "precio": 150,
+      "id": 28,
+      "title": "Tenis Vans",
+      "thumbnailUrl": "./img/Tenis/teniVans1M.jpeg",
+      "tipo": "tenis",
+      "genero": "m",
+      "marca": "vans"
+    },
+    {
+      "precio": 150,
+      "id": 29,
+      "title": "Tenis Vans",
+      "thumbnailUrl": "./img/Tenis/teniVans2M.jpeg",
+      "tipo": "tenis",
+      "genero": "m",
+      "marca": "vans"
+    },
+    {
+      "precio": 150,
+      "id": 30,
+      "title": "Tenis Vans",
+      "thumbnailUrl": "./img/Tenis/teniVans3M.jpeg",
+      "tipo": "tenis",
+      "genero": "m",
+      "marca": "vans"
+    },
+  
+    {
+      "precio": 150,
+      "id": 31,
+      "title": "Tenis Adidas Femenino",
+      "thumbnailUrl": "./img/Tenis/teniAdidas3F.jpg",
+      "tipo": "tenis",
+      "genero": "f",
+      "marca": "adidas"
+    },
+    {
+      "precio": 150,
+      "id": 32,
+      "title": "Tenis Adidas New",
+      "thumbnailUrl": "./img/Tenis/teniAdidas2F.jpg",
+      "tipo": "tenis",
+      "genero": "f",
+      "marca": "vans"
+    },
+    {
+      "precio": 150,
+      "id": 33,
+      "title": "Tenis Adidas Girl",
+      "thumbnailUrl": "./img/Tenis/teniAdidas3F.jpg",
+      "tipo": "tenis",
+      "genero": "f",
+      "marca": "adidas"
+    },
+    
+    {
+      "precio": 150,
+      "id": 34,
+      "title": "Tenis Nike",
+      "thumbnailUrl": "./img/Tenis/teniNike1F.jpg",
+      "tipo": "tenis",
+      "genero": "f",
+      "marca": "nike"
+    },
+    {
+      "precio": 150,
+      "id": 35,
+      "title": "Tenis Nike 2",
+      "thumbnailUrl": "./img/Tenis/teniNike2F.jpg",
+      "tipo": "tenis",
+      "genero": "f",
+      "marca": "nike"
+    },
+    {
+      "precio": 150,
+      "id": 36,
+      "title": "Tenis Nike 3",
+      "thumbnailUrl": "./img/Tenis/teniNike3F.jpg",
+      "tipo": "tenis",
+      "genero": "f",
+      "marca": "nike"
+    },
+    {
+      "precio": 150,
+      "id": 37,
+      "title": "Tenis Nike 4",
+      "thumbnailUrl": "./img/Tenis/teniNike4F.jpg",
+      "tipo": "tenis",
+      "genero": "f",
+      "marca": "nike"
+    },
+    {
+      "precio": 150,
+      "id": 38,
+      "title": "Tenis Vans",
+      "thumbnailUrl": "./img/Tenis/teniVans1F.png",
+      "tipo": "tenis",
+      "genero": "f",
+      "marca": "vans"
+    },
+    {
+      "precio": 150,
+      "id": 39,
+      "title": "Tenis Vans",
+      "thumbnailUrl": "./img/Tenis/teniVans2F.jpg",
+      "tipo": "tenis",
+      "genero": "f",
+      "marca": "vans"
+    },
+    {
+      "precio": 150,
+      "id": 40,
+      "title": "Tenis Vans",
+      "thumbnailUrl": "./img/Tenis/teniVans3F.jpg",
+      "tipo": "tenis",
+      "genero": "f",
+      "marca": "vans"
+    },
+    {
+      "precio": 50,
+      "id": 41,
+      "title": "Pantalon Vans old",
+      "thumbnailUrl": "./img/Pantalones/pantalonVans1M.jpeg",
+      "tipo": "pantalon",
+      "genero": "m",
+      "marca": "vans"
+    },
+ 
+  
+  {
+    "precio": 50,
+    "id": 42,
+    "title": "Pantalon Vans old fashion",
+    "thumbnailUrl": "./img/Pantalones/pantalonVans2M.jpeg",
+    "tipo": "pantalon",
+    "genero": "m",
+    "marca": "vans"
+  },
+  {
+    "precio": 50,
+    "id": 43,
+    "title": "Pantalon Vans women",
+    "thumbnailUrl": "./img/Pantalones/pantalonVans1F.jpg",
+    "tipo": "pantalon",
+    "genero": "f",
+    "marca": "vans"
+  },
+  {
+    "precio": 50,
+    "id": 44,
+    "title": "Pantalon Vans",
+    "thumbnailUrl": "./img/Pantalones/pantalonVans2F.jpg",
+    "tipo": "pantalon",
+    "genero": "f",
+    "marca": "vans"
+  },
+  {
+    "precio": 50,
+    "id": 45,
+    "title": "Pantalon Vans",
+    "thumbnailUrl": "./img/Pantalones/pantalonVans3M.jpeg",
+    "tipo": "pantalon",
+    "genero": "m",
+    "marca": "vans"
+  },
+  {
+    "precio": 50,
+    "id": 46,
+    "title": "Pantalon Vans old",
+    "thumbnailUrl": "./img/Pantalones/pantalonVans3F.jpg",
+    "tipo": "pantalon",
+    "genero": "f",
+    "marca": "vans"
+  },
+  {
+    "precio": 50,
+    "id": 47,
+    "title": "Pantalon Vans old",
+    "thumbnailUrl": "./img/Pantalones/pantalonVans4F.jpg",
+    "tipo": "pantalon",
+    "genero": "f",
+    "marca": "vans"
+  },
+  {
+    "precio": 50,
+    "id": 48,
+    "title": "Pantalon adidas",
+    "thumbnailUrl": "./img/Pantalones/pantalonAdidas1F.jpg",
+    "tipo": "pantalon",
+    "genero": "f",
+    "marca": "adidas"
+  },
+  {
+    "precio": 50,
+    "id": 49,
+    "title": "Pantalon adidas",
+    "thumbnailUrl": "./img/Pantalones/pantalonAdidas2F.jpg",
+    "tipo": "pantalon",
+    "genero": "f",
+    "marca": "adidas"
+  },
+  {
+    "precio": 50,
+    "id": 50,
+    "title": "Pantalon adidas",
+    "thumbnailUrl": "./img/Pantalones/pantalonAdidas3F.jpg",
+    "tipo": "pantalon",
+    "genero": "f",
+    "marca": "adidas"
+  },
+  {
+    "precio": 50,
+    "id": 51,
+    "title": "Pantalon adidas",
+    "thumbnailUrl": "./img/Pantalones/pantalonAdidas1M.jpeg",
+    "tipo": "pantalon",
+    "genero": "m",
+    "marca": "adidas"
+  },
+
+  {
+    "precio": 50,
+    "id": 52,
+    "title": "Pantalon adidas",
+    "thumbnailUrl": "./img/Pantalones/pantalonAdidas2M.jpeg",
+    "tipo": "pantalon",
+    "genero": "m",
+    "marca": "adidas"
+  },
+  {
+    "precio": 50,
+    "id": 53,
+    "title": "Pantalon adidas",
+    "thumbnailUrl": "./img/Pantalones/pantalonAdidas3M.jpeg",
+    "tipo": "pantalon",
+    "genero": "m",
+    "marca": "adidas"
+  },
+  {
+    "precio": 50,
+    "id": 54,
+    "title": "Pantalon nike",
+    "thumbnailUrl": "./img/Pantalones/pantalonNike1M.jpeg",
+    "tipo": "pantalon",
+    "genero": "m",
+    "marca": "nike"
+  },
+  
+  {
+    "precio": 50,
+    "id": 55,
+    "title": "Pantalon nike",
+    "thumbnailUrl": "./img/Pantalones/pantalonNike2M.jpeg",
+    "tipo": "pantalon",
+    "genero": "m",
+    "marca": "nike"
+  },
+  {
+    "precio": 50,
+    "id": 56,
+    "title": "Pantalon nike",
+    "thumbnailUrl": "./img/Pantalones/pantalonNike3M.jpeg",
+    "tipo": "pantalon",
+    "genero": "m",
+    "marca": "nike"
+  },
+  {
+    "precio": 50,
+    "id": 57,
+    "title": "Pantalon nike",
+    "thumbnailUrl": "./img/Pantalones/pantalonNike4M.jpeg",
+    "tipo": "pantalon",
+    "genero": "m",
+    "marca": "nike"
+  },
+  {
+    "precio": 50,
+    "id": 58,
+    "title": "Pantalon nike",
+    "thumbnailUrl": "./img/Pantalones/pantalonNike1F.jpg",
+    "tipo": "pantalon",
+    "genero": "f",
+    "marca": "nike"
+  },
+  {
+    "precio": 50,
+    "id": 59,
+    "title": "Pantalon nike",
+    "thumbnailUrl": "./img/Pantalones/pantalonNike2F.jpg",
+    "tipo": "pantalon",
+    "genero": "f",
+    "marca": "nike"
+  },
+  {
+    "precio": 50,
+    "id": 60,
+    "title": "Pantalon nike",
+    "thumbnailUrl": "./img/Pantalones/pantalonNike3F.jpg",
+    "tipo": "pantalon",
+    "genero": "f",
+    "marca": "nike"
+  } 
+]

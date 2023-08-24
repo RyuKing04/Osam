@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ropa</title>
+ <!--Boostrap Link-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+ <!-- CSS -->
+ <link rel="stylesheet" href="./css/navbar.css">
+ <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body onload="fetchData()">
+    <!-- TopBar -->
+    <nav class="navbar navbar-toggleable-md navbar-dark">
+        <div class="container">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+          <a class="navbar-brand" href="#">
+            <strong>OSAM</strong>
+          </a>
+          <div class="collapse navbar-collapse" id="navbarNav1">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li> 
+              <li class="nav-item dropdown btn-group">
+                <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ropa</a>
+                <div class="dropdown-menu dropdown" aria-labelledby="dropdownMenu1">
+                  <a class="dropdown-item" href="hombre.html">Hombre</a>
+                  <a class="dropdown-item" href="mujeres.html">Mujer</a>
+                  <a class="dropdown-item"  href="Ropa.html">Todo</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="localizacion.html">Localizacion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="historico.html">Historico</a>
+              </li>
+            </ul>
+            <form class="form-inline waves-effect waves-light">
+              <a href="carrito.html"><img src="img/carrito.png" alt=""  width="30px" height="30px"></a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- Fin topbar -->
+    <main>
+        <!--/.Navbar-->
+        <div class="main-container">
+          <div id="myBtnContainer">
+            <button class="btn" onclick="fetchData()">Mostrar todo</button>
+            <button class="btn" onclick="fetchDataP()">Pantalones</button>
+            <button class="btn" onclick="fetchDataC()">Camisas</button>
+            <button class="btn" onclick="fetchDataT()">Tenis</button>
+          </div>
+    
+          <div class="row" id="cards"></div>
+      </main>
+    
+    
+      <template id="template-card">
+        <div class="col-12 mb-2 col-md-2">
+          <div class="card">
+            <img src="" alt="" class="img-card-top">
+            <div class="card-body">
+              <h5>Titulo</h5>
+              <p>precio</p>
+              <button class="btn btn-dark">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </template>
+    
+      <template id="template-carrito">
+        <tr>
+          <th scope="row">id</th>
+          <td>Café</td>
+          <td>1</td>
+          <td>
+            <button class="btn btn-info btn-sm">
+              +
+            </button>
+            <button class="btn btn-danger btn-sm">
+              -
+            </button>
+          </td>
+          <td>$ <span>500</span></td>
+        </tr>
+      </template>
+      <footer class="page-footer center-on-small-only">
+          
+        <!--Footer Links-->
+        <div class="container-fluid">
+          <div class="row">
+      
+            <!--First column-->
+            <div class="col-md-3 offset-lg-1 hidden-lg-down">
+              <h5 class="title">ABOUT MATERIAL DESIGN</h5>
+              <p>Material Design (codenamed Quantum Paper) is a design language developed by Google. </p>
+      
+              <p>Material Design for Bootstrap (MDB) is a powerful Material Design UI KIT for most popular HTML, CSS, and JS framework - Bootstrap.</p>
+            </div>
+            <!--/.First column-->
+      
+            <hr class="hidden-md-up">
+      
+            <!--Second column-->
+            <div class="col-lg-2 col-md-4 offset-lg-1">
+              <h5 class="title">About us</h5>
+              <ul>
+                <li><a href="#!">Adress</a></li>
+                <li><a href="#!">Team</a></li>
+                <li><a href="#!">Phone number</a></li>
+              </ul>
+            </div>
+            <!--/.Second column-->
+      
+            <hr class="hidden-md-up">
+      
+            <!--Third column-->
+            <div class="col-lg-2 col-md-4">
+              <h5 class="title">Metrics</h5>
+              <ul>
+                <li><a href="#!">Shoe sizes</a></li>
+                <li><a href="#!">T-shirt sizes</a></li>
+                <li><a href="#!">Sweatshirt sizes</a></li>
+                <li><a href="#!">Pants sizes</a></li>
+              </ul>
+            </div>
+            <!--/.Third column-->
+      
+            <hr class="hidden-md-up">
+      
+            <!--Fourth column-->
+            <div class="col-lg-2 col-md-4">
+              <h5 class="title">Useful links</h5>
+              <ul>
+                <li><a href="#!">Pricing</a></li>
+                <li><a href="#!">Delivery</a></li>
+                <li><a href="#!">Countries</a></li>
+                <li><a href="#!">Returns</a></li>
+              </ul>
+            </div>
+            <!--/.Fourth column-->
+      
+          </div>
+        </div>
+        <!--/.Footer Links-->
+      
+        <hr>
+      
+        <!--Copyright-->
+        <div class="footer-copyright">
+          <div class="container-fluid">
+            © 2022 Copyright: <a href="http://www.MDBootstrap.com"> OSAM </a>
+      
+          </div>
+        </div>
+        <!--/.Copyright-->
+      
+      </footer>
+     <!--Boostrap cdn-->
+     <script src="./js/addCarrito.js"></script>
+
+     <script src="https://cdnjs.cloudflare.coma/jax/libs/mdbootstrap/4.3.0/js/mdb.min.js"></script>
+     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.js"></script>
+</body>
+
+</html>
